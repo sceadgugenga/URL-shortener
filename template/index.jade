@@ -1,0 +1,18 @@
+doctype
+
+html
+	include ./head.jade
+	
+	body
+		h1 URL Shortener Microservice
+		p This Microservice returns a an object that contains the orginal url as well as a shortened url
+		
+		h2 Creating URL
+		p.code www.mydomain.com/google.com
+		h2 Output
+		p.code {"original url:" 'www.google.com', "short url:" '0C62KE6'}
+		h2 Using Shortened URL
+		p.code www.mydomain.com/0C62KE6
+		h2 Redirects To
+		p.code http://google.com
+	

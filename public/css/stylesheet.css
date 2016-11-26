@@ -1,0 +1,13 @@
+.code { 
+	background-color: #EEE;
+    display: inline;
+    font-family: monospace;
+    padding: 1px 5px;
+    white-space: pre;
+    width: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
